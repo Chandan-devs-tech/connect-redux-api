@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Connect React & Redux app to API
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
