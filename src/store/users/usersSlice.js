@@ -4,7 +4,7 @@ const fetchUsers = createAsyncThunk('users/fetchUsers', async (_, { rejectWithVa
   try {
     const resp = await fetch('https://randomuser.me/api/?results=5');
     const data = await resp.json();
-    console.log(data.results);
+    // console.log(data.results);
     return data.results;
   } catch (error) {
     // throw new Error("Failed to get users");
